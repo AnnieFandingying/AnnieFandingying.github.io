@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>范丁瑛 - 软件工程专业 | GitHub个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-code"></i>
+                <span>范丁瑛</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">首页</a>
+                <a href="#about" class="nav-link">关于我</a>
+                <a href="#skills" class="nav-link">技能</a>
+                <a href="#projects" class="nav-link">项目</a>
+                <a href="#education" class="nav-link">教育经历</a>
+                <a href="#contact" class="nav-link">联系我</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主页区域 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    你好，我是 <span class="highlight">范丁瑛</span>
+                </h1>
+                <h2 class="hero-subtitle">软件工程专业在读本科生</h2>
+                <p class="hero-description">
+                    热爱编程，专注于机器学习、深度学习和Web开发。
+                    致力于用技术解决实际问题，创造有价值的软件产品。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">查看项目</a>
+                    <a href="#contact" class="btn btn-secondary">联系我</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:your.email@example.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://weixin.qq.com" target="_blank" class="social-link">
+                        <i class="fab fa-weixin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-elements">
+                    <div class="floating-element">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="floating-element">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="floating-element">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="floating-element">
+                        <i class="fas fa-database"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我区域 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        我是一名充满热情的软件工程专业本科生，对编程和技术创新有着浓厚的兴趣。
+                        在学习过程中，我专注于机器学习、深度学习和Web开发技术。
+                    </p>
+                    <p class="about-description">
+                        通过参与各种项目和竞赛，我积累了丰富的实践经验，包括Python开发、
+                        神经网络模型构建、数据分析以及前端开发等。我相信技术可以改变世界，
+                        并致力于用代码创造有价值的解决方案。
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>完成项目</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>编程语言</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>2+</h3>
+                            <p>学习年限</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>范丁瑛</h3>
+                        <p>软件工程专业</p>
+                        <div class="profile-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">机器学习</span>
+                            <span class="tag">Web开发</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能区域 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">技能专长</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>编程语言</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>前端技术</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-vue"></i>
+                            <span>Vue.js</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>机器学习</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>TensorFlow</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>PyTorch</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Scikit-learn</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-eye"></i>
+                            <span>Computer Vision</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>工具与平台</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示区域 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">精选项目</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Vision Transformer (ViT) 图像分类</h3>
+                        <p>基于PyTorch实现的Vision Transformer模型，用于图像分类任务。包含预训练模型微调和自定义数据集训练。</p>
+                        <div class="project-tags">
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Transformer</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                代码
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                演示
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>MobileNet 轻量级神经网络</h3>
+                        <p>实现MobileNetV1和V2模型，专注于移动端部署的轻量级深度学习解决方案，包含CBAM注意力机制。</p>
+                        <div class="project-tags">
+                            <span class="tag">深度学习</span>
+                            <span class="tag">移动端AI</span>
+                            <span class="tag">模型压缩</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                代码
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                文档
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>网络安全威胁分析系统</h3>
+                        <p>基于CVE数据库的网络安全威胁分析平台，集成攻击技术映射和漏洞影响评估功能。</p>
+                        <div class="project-tags">
+                            <span class="tag">网络安全</span>
+                            <span class="tag">数据分析</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                代码
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                报告
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>数学建模竞赛解决方案</h3>
+                        <p>参与美赛和国赛的数学建模项目，涵盖机器学习、统计分析和优化算法等多个领域。</p>
+                        <div class="project-tags">
+                            <span class="tag">数学建模</span>
+                            <span class="tag">数据科学</span>
+                            <span class="tag">算法优化</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                代码
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-file-pdf"></i>
+                                论文
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>数据库管理系统</h3>
+                        <p>完整的数据库课程设计项目，包含SQL优化、存储过程设计和数据库性能调优。</p>
+                        <div class="project-tags">
+                            <span class="tag">数据库</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">系统设计</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                代码
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-book"></i>
+                                文档
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>个人GitHub主页</h3>
+                        <p>响应式个人主页设计，展示项目作品集和技术技能，采用现代化前端技术栈。</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                代码
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                预览
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育经历区域 -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">教育经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>软件工程 学士学位</h3>
+                        <p class="timeline-institution">南开大学 软件学院</p>
+                        <p class="timeline-date">2023年9月 - 2027年6月</p>
+                        <div class="timeline-description">
+                            <p>主修课程包括：数据结构与算法、操作系统、计算机网络、软件工程、数据库原理、机器学习等。</p>
+                            <ul>
+                                <li>GPA: 3.8/4.0</li>
+                                <li>获得校级奖学金</li>
+                                <li>参与多项科研项目和竞赛</li>
+                                <li>担任学生会技术部部长</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>在线课程学习</h3>
+                        <p class="timeline-institution">多个在线教育平台</p>
+                        <p class="timeline-date">2020年 - 至今</p>
+                        <div class="timeline-description">
+                            <p>持续学习最新技术栈和行业趋势：</p>
+                            <ul>
+                                <li>深度学习专项课程 (Coursera)</li>
+                                <li>前端开发进阶 (慕课网)</li>
+                                <li>算法与数据结构 (LeetCode)</li>
+                                <li>云计算与DevOps (阿里云)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我区域 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>让我们一起创造美好的未来</h3>
+                    <p>如果您对我的项目感兴趣，或者有任何合作机会，欢迎随时联系我。我很乐意与您交流技术想法和职业发展。</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>邮箱</h4>
+                                <p>2310887@mail.nankai.edu.cn</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <p>github.com/AnnieFandingying</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/yourprofile</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>位置</h4>
+                                <p>中国，天津</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="您的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="主题" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="您的消息" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 范丁瑛. 保留所有权利.</p>
+                    <p>用 ❤️ 和 ☕ 在中国制作</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">回到顶部</a>
+                    <a href="https://github.com/AnnieFandingying" target="_blank">GitHub</a>
+                    <a href="mailto:2310887@mail.nankai.edu.cn">邮箱</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
